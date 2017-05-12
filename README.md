@@ -1,0 +1,1 @@
+# Script-for-Word2vec-Test
