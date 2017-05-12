@@ -1,7 +1,6 @@
 #coding=utf-8
 
 import word2vec
-import sysprint
 
 word = sys.argv[0]
 model = word2vec.load('corpusWord2Vec.bin')
