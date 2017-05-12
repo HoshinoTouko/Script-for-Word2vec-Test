@@ -12,7 +12,7 @@ with open(filePath) as fileTrainRaw:
 
 #enableParallel
 #8vCPU
-jieba.enable_parallel(8)
+jieba.enable_parallel(4)
         
 # define this function to print a list with Chinese
 def PrintListChinese(list):
