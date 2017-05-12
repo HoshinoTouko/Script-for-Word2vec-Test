@@ -10,7 +10,10 @@ with open(filePath) as fileTrainRaw:
     for line in fileTrainRaw:
         fileTrainRead.append(line)
 
-
+#enableParallel
+#8vCPU
+jieba.enable_parallel(8)
+        
 # define this function to print a list with Chinese
 def PrintListChinese(list):
     for i in range(len(list)):
